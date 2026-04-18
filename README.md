@@ -2,12 +2,17 @@
 A robust Python CLI application simulating a core banking environment. This system manages customer accounts, handles financial transactions, and integrates a simulated Rupay Network for debit card issuance.
 
 **The system is built using Object-Oriented Programming (OOP) principles:**
-Encapsulation: Uses private class attributes (e.g., __customerDatabase) to protect sensitive financial records from direct external modification.
-Abstraction: The BankOperations class acts as an interface, hiding the complex logic of database updates and card generation from the end-user.
-Unique Identifier Logic:
-Account Numbers: Generated using a counter and zfill(12) to ensure a standard 12-digit format (e.g., SBI000000000001).
-Debit Cards: Generated as random 12-digit integers with unique constraints.
-Transaction Integrity: The system performs "Check-before-Deduct" logic for withdrawals, transfers, and card issuance fees.
+**Encapsulation**: Uses private class attributes (e.g., __customerDatabase) to protect sensitive financial records from direct external modification.
+
+**Abstraction**: The BankOperations class acts as an interface, hiding the complex logic of database updates and card generation from the end-user.
+
+**Unique Identifier Logic**:
+**Account Numbers**: Generated using a counter and zfill(12) to ensure a standard 12-digit format (e.g., SBI000000000001).
+
+**Debit Cards**: Generated as random 12-digit integers with unique constraints.
+
+**Transaction Integrity**: The system performs "Check-before-Deduct" logic for withdrawals, transfers, and card issuance fees.
+
 **📌 Features**
 KYC-Based Account Creation: Validates unique users via PAN and Aadhar numbers.
 Automated Account Numbering: Generates standardized 12-digit SBI account numbers.
