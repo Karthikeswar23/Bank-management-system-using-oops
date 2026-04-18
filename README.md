@@ -42,5 +42,6 @@ UI/UX: Uses a while True loop and match-case to provide a persistent, menu-drive
 ⚠️ Important Notes
 Runtime Memory: This application stores data in RAM. If you close the program, all accounts and transaction history will be deleted.
 Input Validation: Ensure numeric fields (Mobile, Aadhar, Amount) are entered as digits to avoid ValueError.
+
 **Future Enhancements**
 Integration of phonePe and its operations on bank 
