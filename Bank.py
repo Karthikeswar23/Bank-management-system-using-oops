@@ -157,7 +157,8 @@ operation=BankOperations()
 while True:
     # print('''\t1.Offline (Visiting Bank)
         # 2.Online (Through Phone Pay)''')
-    print('''\t1.Create account
+    print('''\tSelect an option
+        1.Create account
         2.cash withdrawl
         3.Deposit
         4.check balance
